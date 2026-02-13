@@ -1,0 +1,31 @@
+[project]
+name = "keyword_search"
+version = "0.1.0"
+description = "llm bootcamp keyword_search package"
+authors = [
+    {name = "SupportVectors AI Lab", email = "aston@supportvectors.com"},
+]
+readme = "README.md"
+requires-python = "==3.12.*"
+dependencies = [
+    "bm25s>=0.2.6",
+    "fastembed>=0.7.0",
+    "qdrant-client>=1.14.2",
+    "semchunk>=3.2.1",
+    "sentence-transformers>=3.4.1",
+    "svlearn-bootcamp>=0.1.7",
+    "tiktoken>=0.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "mkdocs>=1.4.0",
+    "mkdocs-material>=9.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

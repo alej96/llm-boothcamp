@@ -1,0 +1,12 @@
+# -----------------------------------------------------------------------------------------------
+#
+# All the configurations associated with the bm25 module.
+#
+# NOTE:
+# Keep this file stored at the project's root directory
+# -----------------------------------------------------------------------------------------------
+
+cohort: 2025
+
+paths:
+  qdrant_mount_dir: "/home/devops/ravi/qdrant_mount"

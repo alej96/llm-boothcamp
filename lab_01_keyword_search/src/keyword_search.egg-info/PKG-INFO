@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: keyword_search
+Version: 0.1.0
+Summary: llm bootcamp keyword_search package
+Author-email: SupportVectors AI Lab <aston@supportvectors.com>
+Requires-Python: ==3.12.*
+Description-Content-Type: text/markdown
+Requires-Dist: bm25s>=0.2.6
+Requires-Dist: fastembed>=0.7.0
+Requires-Dist: qdrant-client>=1.14.2
+Requires-Dist: semchunk>=3.2.1
+Requires-Dist: sentence-transformers>=3.4.1
+Requires-Dist: svlearn-bootcamp>=0.1.7
+Requires-Dist: tiktoken>=0.9.0
+Provides-Extra: dev
+Requires-Dist: mkdocs>=1.4.0; extra == "dev"
+Requires-Dist: mkdocs-material>=9.0.0; extra == "dev"
