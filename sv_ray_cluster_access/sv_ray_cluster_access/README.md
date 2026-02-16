@@ -20,7 +20,14 @@ Base URLs are defined in `config.yaml`:
 - **Ray cluster**: `ray_cluster_api.base_url` (e.g. `http://10.0.10.51:8123`)
 - **Inference server**: `inference_api.base_url` (e.g. `http://10.0.10.66:8123`)
 
-Ensure `BOOTCAMP_ROOT_DIR` (or your project root) and `PYTHONPATH` are set so the package and config load correctly (see `.env.example`).
+Set environment variables so package imports and config loading work correctly:
+
+```bash
+cp .env.example .env
+export BOOTCAMP_ROOT_DIR="$(pwd)"
+export PYTHONPATH="$BOOTCAMP_ROOT_DIR/src${PYTHONPATH:+:$PYTHONPATH}"
+export PROJECT_PYTHON="$(which python3)"
+```
 
 ---
 
