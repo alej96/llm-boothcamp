@@ -12,7 +12,7 @@
 cohort: Spring 2026
 
 paths:
-  data_dir: /Users/chandarl/data
+  data_dir: data
 
 ray_cluster_api:
   base_url: http://10.0.10.51:8123
