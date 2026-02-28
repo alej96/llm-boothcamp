@@ -27,7 +27,7 @@ vector-db:
 
 
 datasets:
-  unsplash: "/Users/chandarl/data/unsplash_100"
-  trees: "/Users/chandarl/data/trees/Oak"
-  images: "/Users/chandarl/data/images"
-  reference_faces_dir: "/Users/chandarl/data/faces"
+  unsplash: "/Users/amoreno/projects/llm-boothcamp/lab_4_vision_language_understanding/unsplash_100"
+  trees: "/Users/amoreno/projects/llm-boothcamp/lab_4_vision_language_understanding/trees"
+  images: "/Users/amoreno/projects/llm-boothcamp/lab_4_vision_language_understanding/images"
+  reference_faces_dir: "/Users/amoreno/projects/llm-boothcamp/lab_4_vision_language_understanding/reference_faces"
