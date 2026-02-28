@@ -1,0 +1,33 @@
+# -----------------------------------------------------------------------------------------------
+#
+# All the configurations associated with the vision-language-understanding module.
+#
+# NOTE:
+# Keep this file stored at the project's root directory
+# -----------------------------------------------------------------------------------------------
+clip:
+  model: "openai/clip-vit-base-patch32"
+  collection_name: "tree_embeddings"
+
+siglip2:
+  model: "google/siglip2-base-patch16-224"
+  collection_name: "tree_siglip2_embeddings"
+
+deepface:
+  collection_name: "faces_collection"
+  model_name: "ArcFace"
+  detector_backend: "retinaface"
+  threshold: 0.4
+
+vector-db:
+  host: "localhost"
+  container: "qdrant-vlu"
+  volume: "qdrant_volume"
+  port: 6333
+
+
+datasets:
+  unsplash: "/Users/chandarl/data/unsplash_100"
+  trees: "/Users/chandarl/data/trees/Oak"
+  images: "/Users/chandarl/data/images"
+  reference_faces_dir: "/Users/chandarl/data/faces"

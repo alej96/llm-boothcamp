@@ -1,0 +1,15 @@
+accelerate>=1.2.1
+bitsandbytes>=0.49.2
+datasets>=3.5.0
+insightface>=0.7.3
+litellm>=1.81.15
+onnxruntime>=1.23.2
+openai>=1.59.7
+opencv-python>=4.12.0.88
+qdrant-client>=1.12.2
+sentencepiece>=0.2.1
+svlearn-bootcamp
+
+[dev]
+mkdocs>=1.4.0
+mkdocs-material>=9.0.0
